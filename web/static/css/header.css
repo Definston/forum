@@ -1,0 +1,126 @@
+.header {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 1px 10px black;
+}
+
+.header * {
+    background-color: white;
+}
+
+.header-inner {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 40px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header form {
+    display: flex;
+    align-items: center;
+}
+
+.header input {
+    padding: 5px 0;
+    padding-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+.header-nav .item {
+    margin-left: 10px;
+}
+
+.header .item img {
+    height: 30px;
+    width: 30px;
+    transform: translate(0%, 0%);
+}
+
+.header .item img:hover {
+    height: 50px;
+    width: 50px;
+}
+
+.user-panel {
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    background-color: white;
+    border-left: 1px solid black;
+    box-shadow: 1px 1px 10px black;
+}
+
+.user-panel .avatar {
+    height: 300px;
+    position: relative;
+}
+
+.user-panel .avatar span {
+    position: absolute;
+    width: 100%;
+    color: white;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+.user-panel .avatar img {
+    height: 300px;
+    width: 100%;
+}
+
+.user-panel .user-nav {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.user-panel .user-nav a {
+    height: 100%;
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.user-panel .user-nav a:hover {
+    color: white;
+    background-color: black;
+}
+
+.user-panel form {
+    width: 100%;
+}
+
+.user-panel button {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 0;
+    background-color: white;
+}
+
+.user-panel button:hover {
+    color: white;
+    background-color: black;
+}

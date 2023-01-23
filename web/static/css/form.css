@@ -1,0 +1,58 @@
+form {
+    width: 400px;
+    display: grid;
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.add_post {
+    width: 500px;
+}
+
+form p {
+    margin-bottom: 10px;
+}
+
+form textarea {
+    padding: 5px 10px;
+    /* border-radius: 5px; */
+    border: 1px solid black;
+    resize: none;
+}
+
+form span {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+form input {
+    /* border-radius: 5px; */
+    border: 1px solid black;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+}
+
+form button {
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+form a {
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+form a:hover,
+form button:hover {
+    color: white;
+    background-color: black;
+}

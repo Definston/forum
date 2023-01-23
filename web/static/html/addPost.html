@@ -1,0 +1,28 @@
+{{define "addPost"}}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/web/static/img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/web/static/css/main.css">
+    <link rel="stylesheet" href="/web/static/css/form.css">
+    <title>Forum</title>
+</head>
+
+<body>
+    <form class="add_post" action="/post/add" method="post">
+        <span>Add post</span>
+        <label for="content"></label>
+        <textarea name="content" id="content" cols="30" rows="20" placeholder="You can add tags: #golang"
+            required></textarea>
+        <button type="submit">Submit</button>
+        <a href="/">Back to main</a>
+    </form>
+</body>
+
+
+</html>
+{{end}}

@@ -1,0 +1,122 @@
+.post {
+    margin-bottom: 10px;
+    box-shadow: 0 1px 10px black;
+}
+
+.comm {
+    padding: 10px 15px;
+    background-color: white;
+    border-bottom: 1px solid #000;
+}
+
+.comm .comm-attachment {
+    margin-top: 10px;
+    height: 20px;
+    padding-left: 10px;
+    border-left: 1px solid #000;
+    position: relative;
+}
+
+.comm .comm-attachment a {
+    position: absolute;
+    top: -10px;
+}
+
+.comm .comm-attachment a:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.comm .comm-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.comm-info .user-info {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.comm .comm-content {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.comm .comm-action {
+    display: flex;
+    align-items: center;
+}
+
+.comm .comm-action .vote {
+    display: flex;
+    align-items: center;
+}
+
+.comm .comm-action .vote form {
+    margin-right: 10px;
+}
+
+.comm .comm-action .vote-count {
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+.comm .comm-action button {
+    background-color: transparent;
+}
+
+.comm .comm-action img {
+    width: 30px;
+    height: 30px;
+}
+
+.comm-form {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    background-color: white;
+    border-bottom: 1px solid #000;
+}
+
+.comm-form textarea {
+    width: 100%;
+    resize: none;
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+.comm-form button {
+    width: 100px;
+    height: 78px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-left: 0px;
+}
+
+.add-comm {
+    display: block;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.add-comm label {
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+.add-comm textarea {
+    margin-bottom: 10px;
+}
+
+.add-comm button {
+    border: 1px solid black;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+}
